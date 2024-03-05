@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyLayout.master.cs"
+    Inherits="ADONETWebApp.MyLayout" %>
+
+<%@ Register Src="~/Header.ascx" TagPrefix="MUC" TagName="Header" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+
+    <div class="container">
+
+
+        <MUC:Header Id="Header" runat="Server"></MUC:Header>
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainContectHolder" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">© 2024 Your Website</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

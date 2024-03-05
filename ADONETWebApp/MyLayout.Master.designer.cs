@@ -11,25 +11,34 @@ namespace ADONETWebApp
 {
 
 
-    public partial class TrainerDashbord
+    public partial class MyLayout
     {
 
         /// <summary>
-        /// gvTrainers control.
+        /// head control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvTrainers;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
-        /// lbMasaage control.
+        /// Header control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbMasaage;
+        protected global::ADONETWebApp.Header Header;
+
+        /// <summary>
+        /// MainContectHolder control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContectHolder;
     }
 }

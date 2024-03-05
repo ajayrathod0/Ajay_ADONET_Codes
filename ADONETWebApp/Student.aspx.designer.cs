@@ -11,25 +11,25 @@ namespace ADONETWebApp
 {
 
 
-    public partial class TrainerDashbord
+    public partial class Student
     {
 
         /// <summary>
-        /// gvTrainers control.
+        /// linkCreateStudent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvTrainers;
+        protected global::System.Web.UI.WebControls.HyperLink linkCreateStudent;
 
         /// <summary>
-        /// lbMasaage control.
+        /// gvStudents control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbMasaage;
+        protected global::System.Web.UI.WebControls.GridView gvStudents;
     }
 }
