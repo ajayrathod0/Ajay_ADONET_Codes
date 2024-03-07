@@ -55,7 +55,8 @@ namespace ADONETWebApp
                 string Connectionstr = ConfigurationManager.ConnectionStrings["MyDb"].ConnectionString;
                 SqlConnection con = new SqlConnection(Connectionstr);
                 string TextCmd = $"Insert into Student values ('{name}','{trainerId}')";
-                SqlCommand cmd = new SqlCommand(TextCmd, con);
+                SqlCommand cmd = new SqlCommand(TextCmd, con); 
+
                 con.Open(); 
                 int rowsAffected = cmd.ExecuteNonQuery();
                 if (rowsAffected > 0)
