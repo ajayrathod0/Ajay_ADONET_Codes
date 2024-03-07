@@ -16,7 +16,6 @@ namespace ADONETWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             LoadStudent();
         }
         private void LoadStudent()
@@ -30,9 +29,7 @@ namespace ADONETWebApp
             gvStudents.DataSource = reader;
             gvStudents.DataBind();
             con.Close();
-=======
 
->>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
         }
     }
 }

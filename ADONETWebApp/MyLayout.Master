@@ -1,11 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyLayout.master.cs"
     Inherits="ADONETWebApp.MyLayout" %>
 
-<<<<<<< HEAD
 <%@ Register Src="~/Header.ascx" TagPrefix="MUC" TagName="Header" %>
 
-=======
->>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
 <!DOCTYPE html>
 
 <html>
@@ -15,7 +12,6 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<<<<<<< HEAD
 <body>
 
 
@@ -29,7 +25,6 @@
 
             </asp:ContentPlaceHolder>
         </div>
-=======
 <body> 
     
     <div class="container">
@@ -57,7 +52,6 @@
                 </asp:ContentPlaceHolder>
             </div>
         </form>
->>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
         <footer class="footer">
             <div class="container">
                 <span class="text-muted">© 2024 Your Website</span>

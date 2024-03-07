@@ -10,6 +10,7 @@
                 <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
 
             </div>
+
             <div>
                 <asp:Label ID="lblTrainer" runat="server" Text="Trainer" CssClass="form-labal"></asp:Label>
                 <asp:DropDownList ID="ddlTrainers" runat="server" CssClass="form-select">
