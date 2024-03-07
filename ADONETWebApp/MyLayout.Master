@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyLayout.master.cs"
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyLayout.master.cs"
     Inherits="ADONETWebApp.MyLayout" %>
 
 <%@ Register Src="~/Header.ascx" TagPrefix="MUC" TagName="Header" %>
@@ -18,47 +18,18 @@
     <div class="container">
 
 
-        <MUC:Header Id="Header" runat="Server"></MUC:Header>
+        <MUC:Header ID="Header" runat="Server"></MUC:Header>
 
         <div>
             <asp:ContentPlaceHolder ID="MainContectHolder" runat="server">
-
             </asp:ContentPlaceHolder>
         </div>
-<body> 
-    
-    <div class="container">
-        <nav class="navbar navbar-expand-sm bg-dark">
-            <div class="container-fluid">
-                <ul class="navbar-nav navbar-dark">
-                    <li class="nav-item">
-                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Home.aspx" CssClass="nav-link">Home</asp:HyperLink>
-                    </li>
-                    <li class="nav-item">
-                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/TrainerDashbord.aspx" CssClass="nav-link">Trainers</asp:HyperLink>
-                    </li>
-                    <li class="nav-item">
-                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Student.aspx" CssClass="nav-link">Students</asp:HyperLink>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-
-
-        <form id="form1" runat="server">
-            <div>
-                <asp:ContentPlaceHolder ID="MainContectHolder" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-        </form>
-        <footer class="footer">
-            <div class="container">
+          <div class="footer">
                 <span class="text-muted">© 2024 Your Website</span>
-            </div>
-        </footer>
+        </div>
     </div>
 
     <script src="Scripts/bootstrap.bundle.min.js"></script>
+    </div>
 </body>
 </html>

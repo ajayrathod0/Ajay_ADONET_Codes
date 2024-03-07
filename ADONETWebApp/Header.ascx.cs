@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ADONETWebApp
 {
-    public partial class Header : System.Web.UI.UserControl
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class Header : System.Web.UI.UserControl
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }

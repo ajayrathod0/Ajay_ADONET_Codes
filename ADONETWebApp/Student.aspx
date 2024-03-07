@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Student.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    CodeBehind="Student.aspx.cs"
     Inherits="ADONETWebApp.Student" MasterPageFile="~/MyLayout.Master" %>
 
 <asp:Content ID="pageContent" runat="server" ContentPlaceHolderID="MainContectHolder">
@@ -21,7 +22,6 @@
             <SortedAscendingHeaderStyle BackColor="#594B9C" />
             <SortedDescendingCellStyle BackColor="#CAC9C9" />
             <SortedDescendingHeaderStyle BackColor="#33276A" />
-
         </asp:GridView>
     </form>
 
