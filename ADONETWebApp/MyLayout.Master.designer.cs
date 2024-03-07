@@ -24,13 +24,48 @@ namespace ADONETWebApp
         protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
 
         /// <summary>
+<<<<<<< HEAD
         /// Header control.
+=======
+        /// HyperLink2 control.
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
+<<<<<<< HEAD
         protected global::ADONETWebApp.Header Header;
+=======
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
+
+        /// <summary>
+        /// HyperLink3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink3;
+
+        /// <summary>
+        /// HyperLink1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+
+        /// <summary>
+        /// form1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
 
         /// <summary>
         /// MainContectHolder control.

@@ -13,6 +13,7 @@ namespace ADONETWebApp
 
     public partial class Student
     {
+<<<<<<< HEAD
 
         /// <summary>
         /// linkCreateStudent control.
@@ -31,5 +32,7 @@ namespace ADONETWebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gvStudents;
+=======
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
     }
 }

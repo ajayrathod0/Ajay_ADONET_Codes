@@ -3,6 +3,7 @@
 
 <asp:Content ID="pageContent" runat="server" ContentPlaceHolderID="MainContectHolder">
 
+<<<<<<< HEAD
     <div >
         <asp:HyperLink ID="linkCreateStudent" runat="server" NavigateUrl="~/CreateStudent.aspx">
             Create Student</asp:HyperLink>
@@ -25,4 +26,9 @@
         </asp:GridView>
     </form>
 
+=======
+    <div class="container">
+        <h2>All Student</h2>
+    </div>
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
 </asp:Content>

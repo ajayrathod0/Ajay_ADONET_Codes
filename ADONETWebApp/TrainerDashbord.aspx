@@ -3,7 +3,11 @@
 
 
     <asp:Content ID="pageContent" runat="server" ContentPlaceHolderID="MainContectHolder">
+<<<<<<< HEAD
         <form runat="server">
+=======
+        <div class="container">
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
             <h2>All Trainers</h2>
 
             <asp:GridView ID="gvTrainers" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
@@ -20,5 +24,9 @@
                 <SortedDescendingHeaderStyle BackColor="#4870BE" />
             </asp:GridView>
             <asp:Label ID="lbMasaage" runat="server" ForeColor="red" Text="Label"></asp:Label>
+<<<<<<< HEAD
         </form>
+=======
+        </div>
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
     </asp:Content>

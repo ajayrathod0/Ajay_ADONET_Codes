@@ -83,9 +83,13 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+<<<<<<< HEAD
     <Content Include="CreateStudent.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Header.ascx" />
+=======
+    <Content Include="Global.asax" />
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
     <Content Include="Home.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -98,6 +102,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="CreateStudent.aspx.cs">
       <DependentUpon>CreateStudent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -115,6 +120,11 @@
     <Compile Include="Header.ascx.designer.cs">
       <DependentUpon>Header.ascx</DependentUpon>
     </Compile>
+=======
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+>>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
