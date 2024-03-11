@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-<<<<<<< HEAD
 using System.Configuration;
 using System.Data.SqlClient;
-=======
->>>>>>> 0cd43fec0fba19d2264ac734a27ff4cdedd033bd
 using System.Linq;
 using System.Web;
 using System.Web.UI;
