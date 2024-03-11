@@ -23,9 +23,11 @@ namespace ADONETWebApp
             con.Open();
             SqlDataReader reader = cmd.ExecuteReader();
 
+
             gvStudents.DataSource = reader;
             gvStudents.DataBind();
             con.Close();
+
 
         }
     }
