@@ -15,7 +15,7 @@ class Program
 
         SqlConnection connection = new SqlConnection(connectionString);
 
-        SqlCommand command = new SqlCommand("uspGetTableData", connection);
+        SqlCommand command = new SqlCommand(storedProcedureName, connection);
         command.CommandType = CommandType.StoredProcedure;
 
 

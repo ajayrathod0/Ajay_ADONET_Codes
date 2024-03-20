@@ -1,26 +1,45 @@
-﻿﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TrainerDashbord.aspx.cs"
-    Inherits="ADONETWebApp.TrainerDashbord" MasterPageFile="~/MyLayout.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"
+    CodeBehind="TrainerDashboard.aspx.cs"
+    Inherits="ADONETWebApp.TrainerDashboard" MasterPageFile="~/MyLayout.Master" %>
 
+<%--<%@ OutputCache Duration="10" VaryByParam="none" %>--%>   <%--cache object ke liye --%>
 
-    <asp:Content ID="pageContent" runat="server" ContentPlaceHolderID="MainContectHolder">
-        <form runat="server">
-        <div class="container">
-            <h2>All Trainers</h2>
+<%--<%@ Register Src="~/UserControls/Advertisements.ascx" TagName="Advertisement" TagPrefix="MUC" %>--%>
 
-            <asp:GridView ID="gvTrainers" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None">
-                <AlternatingRowStyle BackColor="White" />
-                <EditRowStyle BackColor="#2461BF" />
-                <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-                <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-                <RowStyle BackColor="#EFF3FB" />
-                <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-                <SortedAscendingCellStyle BackColor="#F5F7FB" />
-                <SortedAscendingHeaderStyle BackColor="#6D95E1" />
-                <SortedDescendingCellStyle BackColor="#E9EBEF" />
-                <SortedDescendingHeaderStyle BackColor="#4870BE" />
-            </asp:GridView>
-            <asp:Label ID="lbMasaage" runat="server" ForeColor="red" Text="Label"></asp:Label>
-        </form>
+<asp:Content ID="pageContent" runat="server" ContentPlaceHolderID="MainContentHolder">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <form runat="server">
+                    <asp:Label ID="lblMassage" runat="server"></asp:Label>
+                    <h2>All Trainers</h2>
+                    <asp:GridView ID="gvTrainers" runat="server" AutoGenerateColumns="False" DataKeyNames="Id"
+                        OnRowEditing="GridView1_RowEditing" OnRowCancelingEdit="GridView1_RowCancelingEdit"
+                        OnRowUpdating="GridView1_RowUpdating" OnRowDeleting="GridView1_RowDeleting">
+
+                        <Columns>
+                            <asp:BoundField DataField="Id" HeaderText="Trainer ID" ReadOnly="true" />
+                            <asp:BoundField DataField="Name" HeaderText="Name" />
+                            <asp:BoundField DataField="City" HeaderText="City" />
+                            <asp:BoundField DataField="Experience" HeaderText="Experience" />
+                            <asp:CommandField ShowEditButton="True" ShowDeleteButton="True" />
+                            <asp:CommandField ShowEditButton="True" ShowDeleteButton="True" />
+                        </Columns>
+
+                    </asp:GridView>
+                    <asp:Label ID="lblMessage" runat="server" ForeColor="Red"></asp:Label>
+                </form>
+            </div>
+           <%-- <div class="col-4 border border-3 border-danger">
+                <muc:advertisement runat="server" id="Ads" />
+            </div>--%>
+
         </div>
-    </asp:Content>
+
+    </div>
+
+
+
+</asp:Content>
+

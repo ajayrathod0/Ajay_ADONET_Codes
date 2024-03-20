@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="query_SP_CUD.sql" />
     <Compile Include="SqlSP.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Trainer.cs" />

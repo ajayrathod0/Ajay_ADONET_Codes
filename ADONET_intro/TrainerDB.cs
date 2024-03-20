@@ -212,7 +212,7 @@ namespace ADONET_intro
         #region 3. Create Trainer
         public bool CreateTrainer(Trainer trainer, out int newRollNumber)
         {
-            string ConnextionString =
+            string connectionStr =
              "server=.\\sqlexpress;database=B22ADONETDB;integrated security=true;";
 
             SqlConnection con = new SqlConnection(connectionStr);  //class feild se

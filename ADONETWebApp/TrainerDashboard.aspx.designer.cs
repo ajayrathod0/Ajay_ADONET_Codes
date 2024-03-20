@@ -11,8 +11,17 @@ namespace ADONETWebApp
 {
 
 
-    public partial class TrainerDashbord
+    public partial class TrainerDashboard
     {
+
+        /// <summary>
+        /// lblMassage control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMassage;
 
         /// <summary>
         /// gvTrainers control.
@@ -24,12 +33,12 @@ namespace ADONETWebApp
         protected global::System.Web.UI.WebControls.GridView gvTrainers;
 
         /// <summary>
-        /// lbMasaage control.
+        /// lblMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbMasaage;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
     }
 }

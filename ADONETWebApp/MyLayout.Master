@@ -1,7 +1,6 @@
-﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyLayout.master.cs"
-    Inherits="ADONETWebApp.MyLayout" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyLayout.master.cs" Inherits="ADONETWebApp.MyLayout" %>
 
-<%@ Register Src="~/Header.ascx" TagPrefix="MUC" TagName="Header" %>
+<%@ Register Src="~/UserControls/Header.ascx" TagPrefix="MUC" TagName="Header" %>
 
 <!DOCTYPE html>
 
@@ -9,26 +8,36 @@
 <head runat="server">
     <title></title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+    <script src="Scripts/jquery-3.7.1.min.js"></script>
+    <script src="Scripts/jquery.validate.min.js"></script>
+    <script src="Scripts/jquery.validate.unobtrusive.min.js"></script>
 </head>
 <body>
-
     <div class="container">
-
-
-        <MUC:Header ID="Header" runat="Server"></MUC:Header>
+        <MUC:Header ID="Header" runat="server" />
 
         <div>
-            <asp:ContentPlaceHolder ID="MainContectHolder" runat="server">
+            <asp:ContentPlaceHolder ID="MainContentHolder" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-          <div class="footer">
-                <span class="text-muted">© 2024 Your Website</span>
+
+        <div>
+            <hr />
+            <p>Copyright VHaaShTech@2024</p>
         </div>
     </div>
-
     <script src="Scripts/bootstrap.bundle.min.js"></script>
-    </div>
+    <script>
+        function validateAgeAsEven(obj,args) {
+            if (args.Value % 2 == 0) {
+
+                args.Isvalid = true;
+            }
+            else {
+                args.Isvalid = false;
+            }
+
+        }
+    </script>
 </body>
 </html>

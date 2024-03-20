@@ -15,30 +15,21 @@ namespace ADONETWebApp
     {
 
         /// <summary>
-        /// head control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-
-        /// <summary>
         /// Header control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::ADONETWebApp.Header Header;
+        protected global::ADONETWebApp.UserControls.Header Header;
 
         /// <summary>
-        /// MainContectHolder control.
+        /// MainContentHolder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContectHolder;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContentHolder;
     }
 }

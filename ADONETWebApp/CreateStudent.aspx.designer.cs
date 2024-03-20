@@ -15,13 +15,13 @@ namespace ADONETWebApp
     {
 
         /// <summary>
-        /// CreateStudentForm control.
+        /// createStudentForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm CreateStudentForm;
+        protected global::System.Web.UI.HtmlControls.HtmlForm createStudentForm;
 
         /// <summary>
         /// lblName control.
@@ -42,6 +42,24 @@ namespace ADONETWebApp
         protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
+        /// lblGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblGender;
+
+        /// <summary>
+        /// rblGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rblGender;
+
+        /// <summary>
         /// lblTrainer control.
         /// </summary>
         /// <remarks>
@@ -60,6 +78,24 @@ namespace ADONETWebApp
         protected global::System.Web.UI.WebControls.DropDownList ddlTrainers;
 
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// FileUpload control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload;
+
+        /// <summary>
         /// btnCreate control.
         /// </summary>
         /// <remarks>
@@ -69,12 +105,12 @@ namespace ADONETWebApp
         protected global::System.Web.UI.WebControls.Button btnCreate;
 
         /// <summary>
-        /// lblMassage control.
+        /// lblMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMassage;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
     }
 }
